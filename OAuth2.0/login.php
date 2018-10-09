@@ -13,7 +13,7 @@ $App = new Facebook\Facebook([
 
 
 $helper = $App->getRedirectLoginHelper();
-$login_url = $helper->getLoginUrl("http://localhost/fb-oauth/");
+$login_url = $helper->getLoginUrl("http://localhost/OAuth2.0/");
 
 try{
 	
